@@ -62,7 +62,7 @@ app.post("/", (req, res) => {
 });
 
 // Define port
-const port = 3000;
+const port = 80;
 
 // Start server
 const server = app.listen(port, () =>
