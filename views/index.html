@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+    <title>HammerSport SMS</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Send SMS Message</h2>
+        <input type="tel" name="number" id="number" placeholder="Enter a phone number">
+        <input type="text" name="msg" id="msg" placeholder="Enter your message">
+        <input type="button" value="Send Text" class="button button-primary" id="button" >
+        <p class="response"></p>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+</body>
+</html>
